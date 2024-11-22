@@ -22,3 +22,6 @@ Enter url: username: password
 https://example.com:username:password
 
 Fill the file with the format (:)
+
+Valid login URL will be saved into the success_login.txt file
+for invalid login, it will not be saved 
