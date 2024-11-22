@@ -35,7 +35,7 @@ def process_account(account):
 
             result = validate_login(url, username, password)
             if result is True:
-                print(f"{Fore.GREEN}Login Successful: |> URL: {url}/n|> Username: {username}\n|> Password: {password}{Style.RESET_ALL}")
+                print(f"{Fore.GREEN}Login Successful: |> URL: {url}\n|> Username: {username}\n|> Password: {password}{Style.RESET_ALL}")
                 with open("sukses_login.txt", "a") as success_file:
                     success_file.write(f"{url}:{username}:{password}\n")
             elif result is False:
