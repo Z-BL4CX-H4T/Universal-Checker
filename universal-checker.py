@@ -35,13 +35,13 @@ def process_account(account):
 
             result = validate_login(url, username, password)
             if result is True:
-                print(f"{Fore.GREEN}Login Successful: {url}:{username}:{password}{Style.RESET_ALL}")
+                print(f"{Fore.GREEN}Login Successful: |> URL: {url}/n|> Username: {username}\n|> Password: {password}{Style.RESET_ALL}")
                 with open("sukses_login.txt", "a") as success_file:
                     success_file.write(f"{url}:{username}:{password}\n")
             elif result is False:
-                print(f"{Fore.LIGHTBLUE_EX}Login Failed: {url}:{username}:{password}{Style.RESET_ALL}")
+                print(f"{Fore.LIGHTBLUE_EX}Login Failed: |> URL: {url}\n|> Username: {username}\n|> Password: {password}{Style.RESET_ALL}")
             else:
-                print(f"{Fore.RED}An Error Occurred While Processing Account: {url}:{username}:{password}{Style.RESET_ALL}")
+                print(f"{Fore.RED}An Error Occurred While Processing Account: |> URL: {url}\n|> Username\n|> Password: {username}: {password}{Style.RESET_ALL}")
         except ValueError:
             print(f"{Fore.RED}Invalid Format: {account}{Style.RESET_ALL}")
     else:
