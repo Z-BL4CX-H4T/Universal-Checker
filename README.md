@@ -8,13 +8,6 @@ pip install colorama
 git clone https://github.com/Z-BL4CX-H4T/Universal-Checker.git
 cd Universal-Checker
 python2 Install.py
-python2 universal-checker.py
-```
-# or
-```
-python3 universal-checker.py
-python universal-checker.py
-```
 
 # Note:
 Create a file in the Universal-Checker folder with the extension .txt
