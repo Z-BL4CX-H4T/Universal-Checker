@@ -7,6 +7,7 @@ pkg install git -y
 pip install colorama
 git clone https://github.com/Z-BL4CX-H4T/Universal-Checker.git
 cd Universal-Checker
+python2 install.py
 python2 universal-checker.py
 ```
 # or
