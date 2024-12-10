@@ -5,7 +5,7 @@ pkg install python2 -y
 pkg install python3 -y
 pkg install git -y
 pip install colorama
-https://github.com/Z-BL4CX-H4T/Universal-Checker.git
+git clone https://github.com/Z-BL4CX-H4T/Universal-Checker.git
 cd Universal-Checker
 python2 Install.py
 python2 universal-checker.py
